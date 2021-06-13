@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Login = () => {
 
   const [newUser, setNewUser] = useState(false);
+  console.log(setNewUser);
   const [user, setUser] = useState({
     isSignedIn: false,
     name: '',
@@ -21,6 +22,7 @@ const Login = () => {
   initializeLoginFramework();
 
   const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+  console.log(loggedInUser);
   const history = useHistory();
   const location = useLocation();
   let { from } = location.state || { from: { pathname: "/" } };
