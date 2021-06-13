@@ -1,0 +1,16 @@
+.booking-container{
+    display: flex;
+    justify-items: normal;
+    margin: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .booking-container{
+        display: inline-block;
+        
+    }
+
+    .form-container{
+        margin-bottom: 50px;
+    }
+}

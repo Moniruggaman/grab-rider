@@ -1,0 +1,10 @@
+.grid {
+    border-radius: 15px;
+    border: 1px solid rgb(46, 35, 35);
+    height: 250px;
+}
+
+.car-img {
+    padding-top: 25px;
+    cursor: pointer;
+}

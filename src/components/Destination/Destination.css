@@ -1,0 +1,20 @@
+.search-form{
+    background-color: rgb(238, 244, 245);
+    border-radius: 5px;
+}
+.destination-container{
+    display: flex;
+    justify-items: normal;
+    margin: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .destination-container{
+        display: inline-block;
+        
+    }
+
+    .form-container{
+        margin-bottom: 50px;
+    }
+}

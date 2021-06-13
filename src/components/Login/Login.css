@@ -1,0 +1,16 @@
+.login-form {
+    width: 100%;
+    max-width: 450px;
+    padding: 25px;
+    margin: auto;
+    height: 100%;
+    border: 1px solid #ccc;
+    box-shadow: darkgray;
+    text-align: center;
+    
+}
+
+.form-group {
+    width: 100%;
+    
+}

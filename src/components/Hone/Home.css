@@ -1,0 +1,20 @@
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-left: 85px;
+    margin-right: 85px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+        text-align: center;
+        margin-top: 25px;
+    }
+}

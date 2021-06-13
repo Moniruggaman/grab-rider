@@ -1,0 +1,25 @@
+[{
+  "id": 1,
+  "name": "BIKE",
+  "fare": "$107.54",
+  "seat": 2,
+  "image": "https://www.linkpicture.com/q/Frame_10.png"
+}, {
+  "id": 2,
+  "name": "BUS",
+  "fare": "$62.80",
+  "seat": 35,
+  "image": "https://www.linkpicture.com/q/Frame-1_10.png"
+}, {
+  "id": 3,
+  "name": "TAXI",
+  "fare": "$85.02",
+  "seat": 4,
+  "image": "https://www.linkpicture.com/q/Frame-2_3.png"
+}, {
+  "id": 4,
+  "name": "TRAIN",
+  "fare": "$37.48",
+  "seat": 400,
+  "image": "https://www.linkpicture.com/q/Train_1.png"
+}]
