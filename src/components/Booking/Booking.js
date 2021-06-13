@@ -13,7 +13,7 @@ const Booking = () => {
   const history = useHistory();
 
   // Dynamic data fetch from home.
-  const carName = CarData.find(car => car.id == id)
+  const carName = CarData.find(car => car.id == id);
   const { name, fare, seat, image } = carName;
   console.log(carName);
 

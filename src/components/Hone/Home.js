@@ -7,7 +7,7 @@ import './Home.css';
 const Home = () => {
     
     const [cars, setCars] = useState([]);
-    useEffect(() => setCars(CarData) , [])
+    useEffect(() => setCars(CarData) , []);
 
     return (
         <div className="grid-layout" >
